@@ -74,3 +74,6 @@ One specific challenge encountered in this project was the presence of many null
 1. Install the required dependencies using `pip install -r requirements.txt`
 
 2. Run the Streamlit application using `streamlit run app.py`
+
+## Conclusion
+In this project, we developed a machine learning model to predict hospital readmissions. The objective was to identify patients at high risk of being readmitted within 30 days of discharge, enabling healthcare providers to take preventive measures and improve patient outcomes.
