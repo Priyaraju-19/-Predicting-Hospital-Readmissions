@@ -46,28 +46,6 @@ if select == "Home":
     st.title("Welcome to the Hospital Readmissions Prediction Project!")
 
     st.write('''
-**Objective:**
-The primary goal of this project is to develop a predictive model that accurately determines whether a patient will require readmission within 30 days after their initial discharge. By leveraging advanced machine learning techniques, this project aims to enhance patient care and optimize healthcare resources.
-
-**Key Features:**
-- **Predictive Modeling:** This machine learning model analyzes patient data to predict the likelihood of hospital readmission within 30 days. This predictive capability enables proactive intervention and personalized care planning for at-risk patients.
-
-- **Data-Driven Insights:** By processing comprehensive healthcare records, this model extracts valuable insights and identifies key factors contributing to readmission risk. These insights empower healthcare providers to make informed decisions and implement targeted interventions.
-
-**How It Works:**
-1. **Data Input:** This model accepts input data comprising patient demographics, medical history, previous hospitalizations, diagnoses, and medications.
-   
-2. **Predictive Analysis:** Leveraging state-of-the-art machine learning algorithms, the model processes the input data to generate predictions on whether readmission is required or not.
-
-3. **Actionable Recommendations:** Based on the model's predictions, healthcare providers can proactively engage with high-risk patients, implement preventive measures, and optimize post-discharge care plans to minimize readmission rates.
-
-**Technological Stack:**
-This predictive model is developed using Python, a versatile programming language for data science and machine learning. It leverages industry-standard libraries such as scikit-learn for modeling and pandas for data manipulation to ensure robust performance and reliability.
-
-**Stay Informed:**
-Follow along as this project explores the intricacies of hospital readmissions prediction and strives to make a positive impact on patient outcomes and healthcare delivery.
-
-''')
 
 elif select == "Readmission":
 
