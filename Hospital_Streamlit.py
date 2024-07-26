@@ -117,6 +117,3 @@ elif select == "Readmission":
             else:
                 st.write("## :green[Readmission is Not Required]")                
 
-
-#__________________________________________END_____________________________________________________________
-            
