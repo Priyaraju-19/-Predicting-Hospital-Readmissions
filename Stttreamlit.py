@@ -82,7 +82,7 @@ elif select == "Readmission":
         button = st.button(":red[PREDICT THE READMISSION]", use_container_width=True)
 
         if button:
-            admission = predict_readmission(Gender, Admission_Type, Diagnosis, Num_Lab_Procedures,
+            Readmission = predict_readmission(Gender, Admission_Type, Diagnosis, Num_Lab_Procedures,
                                             Num_Medications, Num_Outpatient_Visits, Num_Inpatient_Visits,
                                             Num_Emergency_Visits, Num_Diagnoses, A1C_Result)
             if admission == 1:
