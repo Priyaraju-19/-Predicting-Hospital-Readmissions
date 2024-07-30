@@ -14,7 +14,7 @@ def predict_readmission(Gender, Admission_Type, Diagnosis, Num_Lab_Procedures,
                         Num_Medications, Num_Outpatient_Visits, Num_Inpatient_Visits,
                         Num_Emergency_Visits, Num_Diagnoses, A1C_Result):
 
-    with open("Readmitted_Model.pkl","rb") as m:
+    with open("Readmitted_Model.pkl","wb") as m:
         model = pickle.load(m)
     
     data = np.array([[Gender, Admission_Type, Diagnosis, Num_Lab_Procedures,
